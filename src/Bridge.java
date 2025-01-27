@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Bridge {
     public static void main(String[] args) {
-        //5 people crossing bridge using different timezone
+        //5 people crossing bridge using different time taken
         List<Integer> time = Arrays.asList(15,8,14,18,6);
 
         Integer result = getMinimumTime(time);
